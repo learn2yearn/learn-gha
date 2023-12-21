@@ -1,8 +1,8 @@
 name: First Workflow # Github Action Name - Workflow Name
-on : [push]
+on : [push] # Event Trigger
 
 jobs:
-  run-shell-commands :
+  run-shell-commands : # First Job
     runs-on : ubuntu-latest
     steps :
       - name : echo a string
@@ -12,13 +12,13 @@ jobs:
           node -v
           npm -v
 
-  parallel-job-macos :
+  parallel-job-macos : # Second Job
     runs-on : macos-latest
     steps :
       - name : echo mac version
         run : sw_vers
-        
-  dependendant-job :
+
+  dependendant-job : # Dependent Job which depends on First Job
     runs-on : ubuntu-latest
     needs : run-shell-commands
     steps :
