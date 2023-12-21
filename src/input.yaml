@@ -1,0 +1,35 @@
+
+key : value1
+array:
+  - hello
+  - how are you ?
+json array: [one, two]
+number : 10
+boolean : true
+null: null
+also another null : ~
+object maps :
+  key1: value1
+  another key : value 2
+  nested key : |
+    key : value
+    Key2 : value2
+sequence :
+  - Item1
+  - 0.8
+  - firstkey : value
+    anotherkey : value
+  - - nested Array Item 1
+    - nested Array Item 2
+
+
+
+
+
+
+
+
+
+
+
+
