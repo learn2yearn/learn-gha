@@ -1,11 +1,12 @@
-# Tech Learnings on Github Actions ( a.k.a GHA )
-
-# Learn GHA
+# Tech Learnings on Github Actions ( a.k.a GHA ) 
+# Learn GHA 
+# Pre-requisite to install 
+To Install github cli run :  `brew install gh ` 
 
 # Yaml Basics
 
 Very simple way to learn is by compare and contrast yaml with the json format.
-
+  
 Array values start with - ( Hyphen )
 
 ![basic_yaml.png](images/learn_sample_yaml.png)
