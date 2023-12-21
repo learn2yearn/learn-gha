@@ -16,4 +16,4 @@ jobs:
     runs-on : macos-latest
     steps :
       - name : echo mac version
-        run : sw_ver
+        run : sw_vers
