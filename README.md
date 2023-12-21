@@ -26,4 +26,10 @@ A Workflow is a combination of one of more Jobs
 
 ### What is a Job ?
 
-A Job is a combination of multiple steps which can be executed in a github hosted runner machine or self hosted runner machine or large runner machines.
+A Job is a combination of multiple steps which can be executed in a github hosted runner machine or self hosted runner 
+machine or large runner machines.
+
+### How to skip workflow execution ? 
+
+In commits you can specify this in message in square bracket.
+[no ci] [actions skip] [skip actions] []
