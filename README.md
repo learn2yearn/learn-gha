@@ -3,7 +3,7 @@
 # Pre-requisite to install 
 To Install github cli run :  `brew install gh ` 
 
-# Yaml Basics
+# Let's start with some basics on YAML
 
 Very simple way to learn is by compare and contrast yaml with the json format.
   
