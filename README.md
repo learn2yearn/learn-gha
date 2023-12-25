@@ -1,5 +1,5 @@
 # Tech Learnings on Github Actions ( a.k.a GHA ) 
-# Learn GHA 
+
 # Pre-requisite to install 
 To Install github cli run :  `brew install gh ` 
 
